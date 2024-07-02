@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Wig Poem Generator</title>
   </head>
   <body>
@@ -12,7 +13,7 @@
         <h1>AI Wig Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter choice of poem"
@@ -21,13 +22,9 @@
             autocomplete="off"
             class="instruction"
           />
-          <input type="submit" class="submit-button"/>
+          <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          Atop my head, a furry friend,
-          <br />
-          A wig that makes my style transcend
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
