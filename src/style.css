@@ -1,0 +1,68 @@
+body {
+  background-color: #f4e8ff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #e6a2ff;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+form {
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 0px 20px 60px rgba(170, 158, 219, 0.05);
+  border-radius: 10px;
+  display: flex;
+}
+
+.instruction {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #272044;
+}
+
+.submit-button {
+  margin-left: 10px;
+  background: #e6a2ff;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 14px 24px;
+}
+
+.poem {
+  font-size: 16px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  line-height: 2;
+  border-left: 3px solid #e6a2ff;
+  border-radius: 10px;
+  box-shadow: 0px 20px 60px rgba(170, 158, 219, 0.05);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+}
