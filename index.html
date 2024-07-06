@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Wig Poem Generator</title>
   </head>
   <body>
@@ -13,17 +14,21 @@
         <h1>AI Wig Poem Generator</h1>
       </header>
       <main>
+        <div class="form-container">
         <form id="poem-generator-form">
           <input
             type="text"
-            placeholder="Enter choice of poem"
+            placeholder="Enter topic of poem"
             autofocus
             required
             autocomplete="off"
             class="instruction"
+            id="user-instruction"
           />
           <input type="submit" class="submit-button" />
         </form>
+        <div class="hint">E.g. Love, Flower, Sun </div>
+        </div>
         <div class="poem" id="poem"></div>
       </main>
       <footer>

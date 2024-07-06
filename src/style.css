@@ -22,13 +22,23 @@ h1 {
   line-height: 1.5;
 }
 
-form {
+.form-container {
   padding: 30px;
   margin-bottom: 20px;
   background-color: white;
   box-shadow: 0px 20px 60px rgba(170, 158, 219, 0.05);
   border-radius: 10px;
+}
+
+form {
   display: flex;
+}
+
+.hint {
+    line-height: 1.5;
+    margin-top: 7px;
+    opacity: 0.6;
+    font-size: 12px;
 }
 
 .instruction {
