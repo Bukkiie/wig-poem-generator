@@ -72,7 +72,25 @@ form {
   box-shadow: 0px 20px 60px rgba(170, 158, 219, 0.05);
 }
 
+.hidden {
+    display: none;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5,start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility : hidden;
+    }   
 }
